@@ -1,0 +1,65 @@
+<html>
+<head>
+<style>
+body {
+  background-image: url('Metal029_1K_Color.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.geeks {
+            width: 145px;
+            height: 65px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+      
+.geeks img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+      
+.geeks:hover img {
+    transform: scale(1.1);
+}
+*{transition:all 0.3s ease-in-out;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.selectDisable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.selectEnable { 
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+</style>
+<title>About</title>
+</head>
+<script type="text/javascript"> 
+function disableRightClick() 
+{ 
+alert("Sorry, right click is not allowed!!"); 
+return false; 
+} 
+</script>
+<body ondragstart="return false" oncontextmenu="return disableRightClick();">
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="About Text.png"alt="Logo" width="900" height="500"/>
+</body>
+</html>
